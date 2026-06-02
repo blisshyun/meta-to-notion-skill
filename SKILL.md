@@ -81,6 +81,13 @@ python3 ~/.claude/skills/meta-to-notion/scripts/notion_upload.py \
   --title "Meta 광고 인사이트 보고서 — <YYYY-MM-DD>"
 ```
 
+## 결과물 톤 참고 (few-shot)
+
+Step 2의 분석 리포트를 작성하기 전에, 아래 예시들의 **구조·헤더 순서·말투·인사이트 길이**를 반드시 먼저 확인하고 같은 톤으로 작성할 것.
+
+- `~/.claude/skills/meta-to-notion/examples/2025-05-meta-report.md`
+- `~/.claude/skills/meta-to-notion/examples/2025-04-meta-report.md`
+
 ## 출력 마무리
 
 업로드 끝나면 노션 페이지 URL을 클릭 가능한 형태로 보여주고 종료.
