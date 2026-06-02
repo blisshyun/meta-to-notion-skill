@@ -1,0 +1,11 @@
+# 토큰·계정 ID가 들어있는 설정 파일은 절대 올리지 않기
+config.json
+*.env
+.env*
+
+# 맥 시스템 파일
+.DS_Store
+
+# 파이썬 임시 파일
+__pycache__/
+*.pyc
